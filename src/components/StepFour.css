@@ -1,0 +1,61 @@
+/* Ensure the main container fills the viewport */
+.App {
+  min-height: 100vh;
+  background-color: rgb(34, 12, 54);
+}
+
+/* Center-align and style the header */
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(26px + 2vmin);
+  font-weight: bold;
+  color: white;
+  opacity: 1;
+  transition: opacity 1s ease-out; /* Fade-out effect for the header */
+}
+
+.App-header p {
+  margin-top: 10vh;
+}
+
+/* Style the booking button */
+.booking-button {
+  margin-top: 20px; /* Adjust this value to control button positioning */
+  opacity: 1;
+  transition: opacity 1s ease-out; /* Fade-out effect for the button */
+}
+
+/* Fade-out class to apply on click */
+.fade-out {
+  opacity: 0; /* Smoothly fade out both header and button */
+}
+
+.booking-button {
+  margin-top: -1vh;
+}
+
+.booking-details {
+  opacity: 0; /* Initially hidden */
+  transition: opacity 6s ease-in; /* Fade-in effect */
+}
+
+.booking-details.visible {
+  opacity: 1; /* Fade-in when visible */
+  font-size: 16px;
+  color: white;
+}
+
+/* Initial state for heart image */
+.best-part-image {
+  opacity: 0; /* Start hidden */
+  transition: opacity 4s ease-in; /* Smooth fade-in transition */
+}
+
+/* Fade-in effect when showImage becomes true */
+.fade-in {
+  opacity: 1; /* Fade in to full visibility */
+  margin-top: -20vh;
+  width: 20vh;
+}

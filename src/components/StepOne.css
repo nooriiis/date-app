@@ -1,0 +1,60 @@
+.App {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: rgb(34, 12, 54);
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(26px + 2vmin);
+  font-weight: bold;
+  color: white;
+
+  p {
+    margin-top: 10vh;
+  }
+}
+
+.Cards {
+  margin-top: -10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5vh;
+
+  .Card {
+    background-color: rgb(214, 203, 203);
+    width: 10rem;
+  }
+
+  .Disabled-Card {
+    background-color: rgb(214, 203, 203);
+    width: 10rem;
+    opacity: 0.6; /* Makes the card look faded */
+    pointer-events: none; /* Disables clicks and interactions */
+    cursor: not-allowed; /* Changes the cursor to indicate non-clickable */
+  }
+}
+
+@keyframes pulse {
+  0% {
+    filter: brightness(0.2);
+  }
+  50% {
+    filter: brightness(1.6);
+  }
+  100% {
+    filter: brightness(0.2);
+  }
+}
+
+.heart-image {
+  margin-top: -10vh;
+  width: 300px;
+  height: 300px;
+  animation: pulse 4s infinite;
+}
