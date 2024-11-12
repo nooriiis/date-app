@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/date-app/static/css/main.e12b4916.css",
+    "main.js": "/date-app/static/js/main.81d72bce.js",
+    "static/js/453.661f23ec.chunk.js": "/date-app/static/js/453.661f23ec.chunk.js",
+    "index.html": "/date-app/index.html",
+    "main.e12b4916.css.map": "/date-app/static/css/main.e12b4916.css.map",
+    "main.81d72bce.js.map": "/date-app/static/js/main.81d72bce.js.map",
+    "453.661f23ec.chunk.js.map": "/date-app/static/js/453.661f23ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e12b4916.css",
+    "static/js/main.81d72bce.js"
+  ]
+}
